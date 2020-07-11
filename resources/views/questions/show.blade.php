@@ -1,0 +1,11 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        
+        @include('shared._sidebar')
+        <question-page :question="{{$question}}"></question-page>
+    </div>
+</div>
+@endsection

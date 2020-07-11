@@ -1,0 +1,1 @@
+<answer :answer="{{ $answer }}"></answer>
